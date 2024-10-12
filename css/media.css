@@ -1,0 +1,448 @@
+@media screen and (max-width: 1200px) {
+  
+  #contract {
+    padding-top: 2rem !important;
+  }
+
+  #contract .clipboard{
+    font-size: 1rem;
+  }
+
+  
+}
+
+@media screen and (min-width: 1700px) {
+  
+  .howItem1 .how-buy__item-content{
+    padding: 2rem 5rem;
+  }
+  .howItem2 .how-buy__item-content{
+    padding: 2rem 5rem;
+  }
+
+  .howItem3 .how-buy__item-content{
+    padding: 3rem 5rem;
+  }
+
+  .howItem4 .how-buy__item-content span{
+    padding-top: 1rem;
+  }
+  .howItem4 .how-buy__item-content p{
+    padding: 0 2rem;
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .hero_content {
+    padding: 0 0 0 1rem !important;
+  }
+ 
+  .hero_content_container {
+    width: 100%;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+  }
+ 
+}
+ 
+
+@media screen and (min-width: 1400px) {
+  #about {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 1599px) {
+    .how-buy__img {
+        width: 70%;
+        top: 0%;
+    }
+
+    .howItem4 .how-buy__item-content{
+      max-width: 600px;
+      padding: 2rem 0;
+    }
+
+    .howItem4 .how-buy__item-content p { 
+      max-width: 280px;
+  }
+
+}
+
+@media screen and (max-width: 1599px) {
+  .how-buy__head {
+    margin-bottom: 15px;
+  }
+  .how-buy__img {
+    width: 800px;
+  }
+  .how-buy__wrapper {
+    padding-top: 160px;
+    min-height: 600px;
+  }
+  .how-buy__item-content {
+    padding: 50px;
+    max-width: 400px;
+    min-height: 130px;
+    font-size: 19px;
+  }
+
+  .how-buy__item:nth-child(3) {
+    padding-top: 110px;
+  }
+  .how-buy__item:nth-child(4) {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1199px) { 
+
+
+  .social-sect__grid {
+    gap: 20px 15px;
+  }
+  .social-sect__item {
+    width: 160px;
+  }
+
+  footer{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem !important;
+    padding-bottom: 0px !important;
+  }
+
+  .social-sect{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .tree_images .tree1 { 
+    width: 20%; 
+    top:5%;  
+  }
+
+  .hollow_btn:hover  {
+    transform: translateX(-50%) scale(1.1)!important ;
+    -webkit-transform: translateX(-50%) scale(1.1)!important ;
+    -moz-transform: translateX(-50%) scale(1.1)!important ;
+    -ms-transform: translateX(-50%) scale(1.1)!important ;
+    -o-transform: translateX(-50%) scale(1.1)!important ;
+ }
+ 
+
+ .tree_images .tree2 { 
+    width: 20%; 
+    top:5%; 
+  }
+
+  .h-split .cnt-img{
+    z-index: 999;
+  }
+
+  .chart_hero{
+    left: 0;
+    top: 17%;
+  }
+
+  .buy_hero{
+    right: -6%;
+    top: 17%;
+  }
+
+  .alert .speech{
+    max-width: 100%;
+    
+  font-size: 1em;
+  }
+
+  .chart_hero .alert .speech{
+    left: 70%; 
+  }
+
+  .buy_hero .alert .speech{
+    right: 70%; 
+  }
+
+  .chart_hero .alert .speech::before{
+    left: 0; 
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+  }
+  
+
+  .buy_hero .alert .speech::before{
+    left: auto;
+    right:0;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+
+  .tokenomics{
+    padding: 0vw 0 50vw;
+    background: url(../images/tokenomics.png) no-repeat 50% 100% ;
+  }
+
+  #contract{
+    margin-top: -21vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero_content{  
+    z-index: 999;
+  }
+
+  .hero_content_container{
+    flex-direction: column ;
+  }
+
+    #about {
+        padding-top: var(--v-medium);
+      }
+
+  .how-buy__head {
+    margin-bottom: 30px;
+  }
+  .how-buy__wrapper {
+    padding: 0rem;
+    min-height: auto;
+  }
+  .how-buy__wrap{
+    padding: 0rem;
+}
+  .how-buy__img {
+    display: none;
+  }
+  .how-buy__img._mobile {
+    display: block;
+  }
+  .how-buy__img._mobile {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 2rem auto;
+  }
+  .how-buy__wrap {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    gap: 20px;
+  }
+  .how-buy__item:nth-child(n) {
+    padding: 0;
+  }
+  .how-buy__item-content {
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    min-height: auto;
+  }
+
+  .how-buy__item-content{
+    padding: 3rem 0 !important;
+  }
+
+  .howItem2 .how-buy__item-content{
+    width: 100%;
+  }
+
+  .howItem1 .how-buy__item-content p,
+  .howItem3 .how-buy__item-content p,
+  .howItem1 .how-buy__item-content span,
+  .howItem3 .how-buy__item-content span{
+    width: 80%;
+  }
+
+
+  .cloud_img{
+    width: 40%; 
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .how-buy__item {
+    min-width: 100%;
+  }
+
+  .social-sect__item {
+    width: 120px;
+  }
+  .social-sect__item img {
+    max-width: 35%;
+    max-height: 35%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .logo_container img{
+        width: 65px;
+    }
+
+    #hero .photo{
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .tree_images .tree1,
+    .tree_images .tree2  { 
+      top: 26%; 
+   }
+
+   .tree_images .tree2 {
+    /* width: 30%; */
+   }
+ 
+    .hero_title{
+      width: 100%;
+    }
+
+    .hero_content{
+      width: 100%;
+      padding-right: 3%;
+    }
+
+    #contract {
+      padding-top: 0rem !important;
+    }
+    
+    
+  .how-buy {
+    margin: 0px 0;
+  }
+  .how-buy__wrap,
+  .how-buy__item {
+    gap: 15px;
+  }
+  .how-buy__item-number {
+    font-size: 90px;
+  }
+  .how-buy__item-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+    padding: 10px 15px;
+    max-width: none;
+    font-size: 16px;
+  }
+
+  .title_nort{
+    font-size: 17vw !important;
+  }
+
+  .howItem1 .how-buy__item-content p,
+  .howItem2 .how-buy__item-content p,
+  .howItem3 .how-buy__item-content p{
+    width: 70%;
+  }
+
+  .how-buy__item-number{
+    position: absolute;
+  }
+
+  .howItem4 .how-buy__item-content span,
+  .howItem4 .how-buy__item-content p{
+    width: 60%;
+  }
+
+  .howItem1 .how-buy__item-number,
+  .howItem3 .how-buy__item-number{
+    top: 0;
+    left: 1rem;
+  }
+
+  .howItem2 .how-buy__item-number,
+  .howItem4 .how-buy__item-number{
+    right: 1rem;
+  }
+
+  .howItem2 .how-buy__item-number{
+    top: 40%;
+  }
+
+  .howItem4 .how-buy__item-content{
+    width: 100%;
+  }
+ 
+
+  /* tokenomics */ 
+  .tokenomics__item-count{
+    font-size: 25px;
+  }
+
+  .tokenomics__item-head{
+    font-size: 30px;
+  }
+
+  .supply_text{
+    font-size: 18px;
+  }
+
+  .tokenomics__item img{
+    width: 100px;
+  }
+
+  /* social section */
+  .social-sect__grid {
+    gap: 4vw 3vw;
+  }
+  .social-sect__item {
+    width: 25vw;
+  }
+
+  .link_contract{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contract .btn-group .btn{
+    width: 100%;
+  }
+
+  .contract_content{
+    padding-top: 2rem;
+  }
+
+  #contract::after{
+    content: "";
+    position: absolute;
+    width: 250vw;
+    height: 250vw;
+    min-height: 1000px;
+    min-width: 1000px;
+    left: -75vw;
+    top: -75vw; 
+  }
+
+  .footer .info, .footer .info a{
+    font-size: 16px;
+  }
+
+  .social-sect__img{
+    width: 100%; 
+}
+  
+}
+
+@media (max-width: 400px) {
+  #contract {
+    margin-top: -27vw !important;
+  }
+}
