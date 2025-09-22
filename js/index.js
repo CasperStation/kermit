@@ -20,7 +20,7 @@ const copybtn = document.querySelector(".contractCopy");
 copybtn.addEventListener("click", function () {
   let textSpan = copybtn.querySelector("span");
   let intervalId;
-  let addressText = `0x7D95E5a4bcAf1fad76Dc6E4EE6c7DBF9978594f4`;
+  let addressText = `TBA`;
   textSpan.innerHTML = "COPY";
 
   if (intervalId) {
@@ -28,7 +28,7 @@ copybtn.addEventListener("click", function () {
   }
 
   intervalId = setInterval(() => {
-    textSpan.innerHTML = "0x7D95E5a4bcAf1fad76Dc6E4EE6c7DBF9978594f4";
+    textSpan.innerHTML = "TBA";
     // textSpan.innerHTML = '';
     clearInterval(intervalId);
   }, 1000);
@@ -40,7 +40,7 @@ copy_address.forEach((copy) => {
   copy.addEventListener("click", function () {
     let message = copy.querySelector(".message");
     let intervalId;
-    let addressText = `0x7D95E5a4bcAf1fad76Dc6E4EE6c7DBF9978594f4`;
+    let addressText = `TBA`;
     message.classList.add("active");
     if (intervalId) {
       clearInterval(intervalId);
